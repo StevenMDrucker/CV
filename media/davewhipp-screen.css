@@ -31,9 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+/*
 ol, ul {
 	list-style: none;
 }
+*/
 blockquote, q {
 	quotes: none;
 }
@@ -82,7 +84,13 @@ p code {
 	text-align: right;
 	right: -20%;
 }
-
+ol {
+	position: relative;
+	left: 25%;
+	margin-bottom: 0.2em;
+	margin-right: 0;
+	width: 60%;
+}
 
 ul {
 	position: relative;
@@ -99,10 +107,11 @@ ul {
 	left: -0.25em;
 }*/
 
+
 li {
 	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
+	/*padding-left: 1.25em;
+	text-indent: -1.25em; */
 	/*color: #777;*/
 }
 

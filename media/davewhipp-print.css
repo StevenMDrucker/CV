@@ -31,9 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+/*
 ol, ul {
-	list-style: none;
+	list-style: none; 
 }
+*/
 blockquote, q {
 	quotes: none;
 }
@@ -69,6 +71,14 @@ p {
 	width: 60%;
 }
 
+ol {
+	position: relative;
+	left: 25%;
+	margin-bottom: 0.2em;
+	margin-right: 0;
+	width: 60%;
+}
+
 code {
 	font: normal normal;
 	font-size: 90%;
@@ -93,11 +103,11 @@ ul {
 }
 
 /*uncomment to get dashes in the list*/
-/*li:before {
+li:before {
 	content: "-";
 	position: relative;
 	left: -0.25em;
-}*/
+}
 
 li {
 	/*second line indent*/

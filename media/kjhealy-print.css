@@ -31,9 +31,11 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
+/*
 ol, ul {
 	list-style: none;
-}
+}*/
+
 blockquote, q {
 	quotes: none;
 }
@@ -63,10 +65,18 @@ body {
 
 p {
 	position: relative;
-	left: 28%;
+	left: 15%;
+	margin-bottom: 0.5em;
+	margin-right: 0;
+	width: 85%;
+}
+
+ol {
+	position: relative;
+	left: 15%;
 	margin-bottom: 0.2em;
 	margin-right: 0;
-	width: 70%;
+	width: 85%;
 }
 
 code {
@@ -85,9 +95,10 @@ p code {
 
 ul { 
 	position: relative;
-	left: 28%;
-	width: 65%;
-	margin-bottom: 1em;
+	left: 15%;
+	width: 85%;
+	margin-bottom: 0.2em;
+	margin-right: 0;
 	/*margin-top: -0.5em;*/
 }
 
@@ -98,10 +109,11 @@ ul {
 	left: -0.25em;
 }*/
 
+
 li {
 	/*second line indent*/
-	padding-left: 1.25em;
-	text-indent: -1.25em;
+	/*padding-left: 1.25em;
+	text-indent: -1.25em; */
 	/*color: #777;*/
 }
 
@@ -123,7 +135,7 @@ h1 {
 	font-size: 3em;
 	line-height: 1em;
 	position: relative;
-	left: 28%;
+	left: 15%;
 }
 
 h1+p { 
@@ -137,9 +149,9 @@ h2 {
 	color: #a00;
 	margin-top: 2em;
 	position: relative;
-	top: 1.2em;
+	top: 1.1em;
 	text-align: right;
-	width: 18%;
+	width: 10%;
 }
 
 
@@ -148,9 +160,9 @@ h3 {
 	line-height: 2em; 
 	color: #ccc;
 	position: relative;
-	top: 1.6em;
+	top: 0.4em;
 	text-align: right;
-	width: 18%;
+	width: 10%;
 }
 
 a {
@@ -165,10 +177,10 @@ a:hover {
 #webaddress {
 	margin-top: 1em;
 	position: relative;
-	left: 28%;
-	color: #ccc;
+	left: 15%;
+	color: #aaa;
 	font-family: Menlo,monospace,sans-serif;
-	font-size: 80%;
+	font-size: 100%;
 }
 
 #webaddress a {
